@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>uniApp_npm搭建</title>
+      <link href="/2020/06/25/uniApp_npm%E6%90%AD%E5%BB%BA/"/>
+      <url>/2020/06/25/uniApp_npm%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h5 id="1、全局安装vue，vue-cli"><a href="#1、全局安装vue，vue-cli" class="headerlink" title="1、全局安装vue，vue-cli"></a>1、全局安装vue，vue-cli</h5><p>​    npm install -g @vue/cli</p><h5 id="2、创建uni-app"><a href="#2、创建uni-app" class="headerlink" title="2、创建uni-app"></a>2、创建uni-app</h5><p>vue create -p dcloudio/uni-preset-vue my-project</p><h5 id="3、运行并发布uniapp"><a href="#3、运行并发布uniapp" class="headerlink" title="3、运行并发布uniapp"></a>3、运行并发布uniapp</h5><p>npm run dev:%PLATFORM%</p><p>npm run build:%PLATFORM%</p><h5 id="4、uni-app支持使用npm安装第三方包"><a href="#4、uni-app支持使用npm安装第三方包" class="headerlink" title="4、uni-app支持使用npm安装第三方包"></a>4、uni-app支持使用<strong>npm</strong>安装第三方包</h5><p>npm install packageName –save</p><p><strong>使用</strong></p><p>安装完即可使用npm包，js中引入npm包：</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> package <span class="keyword">from</span> <span class="string">'packageName'</span></span><br><span class="line"><span class="keyword">const</span> package = <span class="built_in">require</span>(<span class="string">'packageName'</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>React-Native安装配置</title>
+      <link href="/2020/06/25/React-Native%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+      <url>/2020/06/25/React-Native%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="React-Native"><a href="#React-Native" class="headerlink" title="React-Native"></a>React-Native</h4><p>安装本地地址:</p><h4 id="Android-studio"><a href="#Android-studio" class="headerlink" title="Android studio"></a>Android studio</h4><p>sdk默认安装地址:C:\Users\17637\AppData\Local\Android\Sdk</p><p>1.初始化一个React Native应用，我们可以通过React Native命令行工具来完成，打开命令提示符窗口并运行下面命令：</p><p>2.react-native init 项目名称 –version 0.60.5</p><p>进入项目文件查看:react-native -v</p><p>3.打开项目后在build gradle中把3.4.1改成3.3.1</p><p><img src="C:%5CUsers%5C17637%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191130143510219.png" alt="image-20191130143510219"></p><p>4.在gradle-&gt;wrapper-&gt;gradle-wrapper.properties文件中修改</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">distributionUrl=https\:<span class="comment">//services.gradle.org/distributions/gradle-4.10.2-all.zip</span></span><br></pre></td></tr></table></figure><p><img src="C:%5CUsers%5C17637%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191130142655485.png" alt="image-20191130142655485"></p><p>在项目文件下启动:</p><p>react-native run-android</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>函数</title>
+      <link href="/2020/06/25/%E5%87%BD%E6%95%B0/"/>
+      <url>/2020/06/25/%E5%87%BD%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>回调函数:setIeterval(function(){},1000)一个函数的返回值作为另一个函数的参数</p><p>递归函数:自己调用自己 fun(){fun(){}}</p><p>匿名函数:没有名字的函数</p><p>闭包函数:打破作用域壁垒</p><p>开发模式:</p><p>传统模式\框架(前后端分离)</p><p>企业站,宣传一般都是传统模式,利于爬虫seo</p><p>框架–后台系统管理模式</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git_github配置</title>
+      <link href="/2020/06/25/git_github%E9%85%8D%E7%BD%AE/"/>
+      <url>/2020/06/25/git_github%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="git上传项目到github"><a href="#git上传项目到github" class="headerlink" title="git上传项目到github"></a>git上传项目到github</h4><p>1.在gihub 上创建一个仓库。 </p><p><img src="/image-20191123191728260.png" alt="image-20191123191728260"></p><p> 2.填写项目名字和描述 </p><p><img src="/image-20191123191827373.png" alt="image-20191123191827373"></p><ol start="3"><li>完成后, 复制仓库地址<a href="https://github.com/Yangxiaolei190/thisme.git，如下图：" target="_blank" rel="noopener">https://github.com/Yangxiaolei190/thisme.git，如下图：</a> </li></ol><p><img src="/image-20191123192017610.png" alt="image-20191123192017610"></p><ol start="4"><li><p>打开已经下载好的git，找到需要打包的文件夹目录，点击反键运行git bash here,如果不想这样做的，自己打开 </p><p><img src="/image-20191123193519565.png" alt="image-20191123193519565"></p></li><li><p>我们需要先创建一个本地的版本库（其实也就是一个文件夹）。</p><blockquote><p>这里可以使用另外一种方式，更加简单：</p><p>cmd打开小黑屋，输入</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Yangxiaolei190&#x2F;cart.git .</span><br></pre></td></tr></table></figure><p>暂存</p><p>提交</p><p>拉取</p><p>推送</p></blockquote><p>你可以直接右击新建文件夹，也可以右击打开Git bash命令行窗口通过命令来创建。</p><p>我通过小黑屋 git init  初始化仓库,在文件夹那里  把隐藏的文件夹勾选出来，可以看见.git文件夹 </p><p><img src="/image-20191123194714303.png" alt="image-20191123194714303"></p></li></ol><p>6.这时候就可以把项目粘贴到这个本地Git仓库里面（粘贴后可以通过git status来查看你当前的状态），然后通过git add把项目添加到仓库（或git add .把该目录下的所有文件添加到仓库，注意点是用空格隔开的）。在这个过程中你其实可以一直使用git status来查看你当前的状态。</p><p><img src="/image-20191123195043794.png" alt="image-20191123195043794"></p><p> 这里提示你虽然把项目粘贴过来了，但还没有add到Git仓库上，然后我们通过git add .把刚才复制过来的项目全部添加到仓库上。 </p><p><img src="/image-20191123195306330.png" alt="image-20191123195306330"></p><ol start="7"><li><p>用git commit把项目提交到仓库。 </p><p> -m后面引号里面是本次提交的注释内容，这个可以不写，但最好写上，不然会报错，详情自行Google。 好了，我们本地Git仓库这边的工作做完了，下面就到了连接远程仓库（也就是连接Github）</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">由于本地Git仓库和Github仓库之间的传输是通过SSH加密的，所以连接时需要设置一下：</span><br></pre></td></tr></table></figure><p><img src="/image-20191123195822502.png" alt="image-20191123195822502"></p><p>  由于本地Git仓库和Github仓库之间的传输是通过SSH加密的，所以连接时需要设置一下： </p></li><li><p>创建SSH KEY。先看一下你C盘用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和id_rsa.pub这两个文件，有就跳到下一步，没有就通过下面命令创建 </p><p> <img src="/image-20191123200116965.png" alt="image-20191123200116965"></p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure><p> 然后一路回车。这时你就会在用户下的.ssh目录里找到id_rsa和id_rsa.pub这两个文件   </p><p><img src="/image-20191123200515347.png" alt="image-20191123200515347"></p><p>9.登录Github,找到右上角的图标，打开点进里面的Settings，再选中里面的SSH and GPG KEYS，点击右上角的New SSH key，然后Title里面随便填，再把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面，最后点击Add SSH key，这样就完成了SSH Key的加密。具体步骤也可看下面：</p><p><img src="/image-20191123200818694.png" alt="image-20191123200818694"></p></li></ol><p><img src="/image-20191123200912989.png" alt="image-20191123200912989">)<img src="/image-20191123201013350.png" alt="image-20191123201013350">![image-201</p><ol start="10"><li>在Github上创建好Git仓库之后我们就可以和本地仓库进行关联了，根据创建好的Git仓库页面的提示，可以在本地git仓库的命令行输入： </li></ol><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ git remote add origin https:<span class="comment">//github.com/Yangxiaolei190/thisme.git</span></span><br></pre></td></tr></table></figure><p><img src="/image-20191123201250424.png" alt="image-20191123201250424"></p><p>11.联好之后我们就可以把本地库的所有内容推送到远程仓库（也就是Github）上了，通过：</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure><p>  由于新建的远程仓库是空的，所以要加上-u这个参数，等远程仓库里面有了内容之后，下次再从本地库上传内容的时候只需下面这样就可以了： </p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure><p> 上传项目<img src="/image-20191123201544432.png" alt="image-20191123201544432">的过程可能需要等一段时间，完成之后是这样的:</p><p><img src="/image-20191123203356971.png" alt="image-20191123203356971"></p><p>刷新Github页面进入刚才新建的那个仓库里面就会发现项目已经成功上传了： </p><p> 至此就完成了将本地项目上传到Github的整个过程。</p><p><img src="/image-20191123203539751.png" alt="image-20191123203539751"></p><h6 id="特别注意"><a href="#特别注意" class="headerlink" title="特别注意:"></a>特别注意:</h6><p>  1.这里有个坑需要注意一下，就是在上面第2步创建远程仓库的时候，如果你勾选了Initialize this repository with a README（就是创建仓库的时候自动给你创建一个README文件）</p><p><img src="/image-20191123203840495.png" alt="image-20191123203840495"></p><p>将本地仓库内容推送到远程仓库的时候就会报一个failed to push some refs to  <a href="https://github.com/Yangxiaolei190/thisme.git的错" target="_blank" rel="noopener">https://github.com/Yangxiaolei190/thisme.git的错</a> </p><p> 这是由于你新创建的那个仓库里面的README文件不在本地仓库目录中，这时我们可以通过以下命令先将内容合并以下：  git pull –rebase origin master </p><p>2.加入.gitignore文件夹,本地项目合并到一个大项目,文件不同只合并代码,过滤作用</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>.表示暂存当前路径下的所有文件,把刚才变更的放到暂存区还不能与远程操作</p><p><img src="/image-20191123210713578.png" alt="image-20191123210713578"></p><p>第二步从暂存区提交到本地仓库</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">git commit -m <span class="string">"新建项目"</span></span><br></pre></td></tr></table></figure><p><img src="/image-20191123210931321.png" alt="image-20191123210931321"></p><p><img src="/image-20191123211320952.png" alt="image-20191123211320952"></p><p>1.git pull拉取</p><p><img src="/image-20191123211551546.png" alt="image-20191123211551546"></p><p>2.推送Git push</p><p><img src="/image-20191123211653388.png" alt="image-20191123211653388"></p><h4 id="组员从服务器交互"><a href="#组员从服务器交互" class="headerlink" title="组员从服务器交互"></a>组员从服务器交互</h4><p>1.本地新建一个文件夹</p><p>2.使用git命令clone服务器上的代码</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Yangxiaolei190&#x2F;thisme.git .</span><br></pre></td></tr></table></figure><p><img src="/image-20191123215249013.png" alt="image-20191123215249013"></p><p>第一步:暂存  git add .</p><p>第二步:提交  git commit -m “提交的注释”</p><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">$ git config user.name <span class="string">"liguangxian"</span></span><br><span class="line">$ git config user.email <span class="string">"2995183552@qq.com"</span></span><br></pre></td></tr></table></figure><p>第三步:拉取    git pull</p><p>第四步:推送    git push</p><p><img src="/image-20191123221855611.png" alt="image-20191123221855611"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/06/25/hello-world/"/>
+      <url>/2020/06/25/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
